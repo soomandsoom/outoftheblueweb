@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500&family=Montserrat:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;600&family=Rethink+Sans:ital@0;1&display=swap');
+
+
+        body {background-color: #d5ecff; padding: 20px 8vw 20px 8vw; word-break: keep-all;}
+        header {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 25px;
+            margin-bottom: 40px;
+            display:flex;
+
+        }
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 300px;
+            margin: 0px 200px 50px 50px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size:45px;
+            width: 100%;           
+            position: relative;
+        }
+        
+
+        .non-active:link, .non-active:visited { color: #d5ecff; text-decoration: none; }
+        .header,.non-active:hover,.yes-active:visited,.yes-active:hover {color: black; text-decoration: none;}
+        .non-active:active, .yes-active:active {color: #f6ff00;}
+        .yes-active:link {color: black; text-decoration: underline 3px;}

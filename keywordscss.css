@@ -1,0 +1,105 @@
+.content-wrap{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left:50px;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    font-size: 23px;
+    word-break: keep-all;
+}
+
+hr {border: 0.7px solid black;
+    width: 100%;
+    margin-top: 120px;
+}
+.search-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fatandflat-wrap {font-family: 'Montserrat';
+    font-weight: 500;}
+
+.search-1, .search-2, .search-3, .search-4 {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.word img{
+    width: auto;
+    height: 18px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+
+.fatandflat-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+.s-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 300px;
+    font-weight: 500;
+}
+
+    .title{
+        min-width: 280px;
+
+    }
+
+    .s-title img{
+        max-width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+    
+.fatandflat-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: auto;
+    
+}
+.fatandflat-wrap img{
+    width: 300px;
+    
+}
+
+
+.message-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+.message-wrap span{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.message-wrap img{
+    width: 400px;
+    margin-top: 15px;
+}
+
+.explain {
+    font-size: 17px;
+    color:rgb(60, 60, 60);
+    margin-top: 415px;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

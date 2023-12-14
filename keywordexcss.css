@@ -1,0 +1,49 @@
+#text{
+    line-height: 1.6;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    height: 100px;
+    min-width: 3%;
+    max-width: 9%;
+    word-break: keep-all;
+    position: relative;
+    display: inline-block;
+    overflow: scroll;
+    background-color:white;
+    border-radius: 1%;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 30px 5px 0px;
+    border:1.7px solid black;
+    box-shadow: inset 2px 2px 5px 0.2px #9ba3ba70;
+}
+
+#text span{
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:150%;
+    height:150%;
+    background-color: #d5ecff;
+    font-family: 'Rethink Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    color: black;
+
+}
+
+.overlay:hover {
+    background-color: #f6ff00;
+}
+
+.go {
+transform: translate(0px,-500px);
+}
