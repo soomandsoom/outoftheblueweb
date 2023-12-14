@@ -89,6 +89,7 @@ hr {border: 0.7px solid black;
 
 .message-wrap img{
     width: 400px;
+    height: auto;
     margin-top: 15px;
 }
 
