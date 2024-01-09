@@ -45,5 +45,5 @@
                 gap:5px;
             }
 
-            .yes-active:link {text-decoration: underline 1.5px;}
+            .yes-active:link {text-decoration: none;}
         }
