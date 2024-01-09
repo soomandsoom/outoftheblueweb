@@ -39,22 +39,30 @@ a:active {color:black; text-decoration: none;}
 
 
 .seeall{
-    display:grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 30px;
     line-height: 1.9em;
     margin-bottom: 150px;
 }
-
-.footnotes{
-    font-size:15px;
-    line-height: 1.9em;
-    display:flex;
-    flex-direction: column;
-}
-
 .seeall span{font-family: 'Montserrat';
     font-weight: 300;
     white-space: nowrap;}
 
 .section{text-align: center;}
+
+
+@media screen and (max-width: 600px) {
+    .content-wrap{
+        gap: 15px;
+        font-size: 15px;
+    }
+    .list{
+        padding-right: 1vw;
+    }
+    .list-name{
+        border-bottom: 1.5px solid black;
+        padding: 10px;
+    }
+    
+    .list-name:first-child{
+        border-top: 1.5px solid black;
+    }
+}
