@@ -47,3 +47,25 @@
 .go {
 transform: translate(0px,-500px);
 }
+
+
+@media screen and (max-width: 600px) {
+    #text{
+        font-size:13px;
+        height: 80px;
+        min-width: 20px;
+        max-width: 100px;
+        padding: 5px 10px 5px 10px;
+        margin: 5px 10px 0px 0px;
+        border:1.5px solid black;
+        box-shadow: inset 2px 2px 5px 0.2px #9ba3ba70;
+    }
+    .overlay{
+        width:150%;
+        height:150%;
+        font-size: 18px;
+        padding: 5px 10px 5px 10px;
+    
+    }
+
+}
