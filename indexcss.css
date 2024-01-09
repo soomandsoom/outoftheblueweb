@@ -30,19 +30,18 @@
         .non-active:active, .yes-active:active {color: #f6ff00;}
         .yes-active:link {color: black; text-decoration: underline 3px;}
 
-
         @media screen and (max-width: 600px) {
 
-            body {padding: 5vw 8vw 5vw 8vw;}
+            body {padding: 3vw 5vw 3vw 5vw;}
             header {
                 font-size:15px;
                 margin-bottom: 40px;
             }
             nav {
-                width:100%;
+                width:280px;
                 margin: 0vw;
                 margin-bottom: 50px;
-                font-size: 20px;
+                font-size: 18px;
                 gap:5px;
             }
 
