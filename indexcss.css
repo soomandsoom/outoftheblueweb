@@ -12,6 +12,7 @@
 
         }
         nav {
+            width: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 300px;
@@ -19,8 +20,7 @@
             margin: 0px 200px 50px 50px;
             font-family: 'Montserrat';
             font-weight: 400;
-            font-size: 45px;
-            width: 100%;           
+            font-size: 45px;           
             position: relative;
         }
         
@@ -39,9 +39,11 @@
                 margin-bottom: 40px;
             }
             nav {
-                margin-left: 2vw;
-                gap: 10px;
+                width:100%;
+                margin: 0vw;
+                margin-bottom: 50px;
                 font-size: 20px;
+                gap:5px;
             }
 
             .yes-active:link {text-decoration: underline 1.5px;}
